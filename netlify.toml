@@ -1,10 +1,9 @@
 [functions]
   external_node_modules = ["express"]
-  included_files = ["views/**/*.handlebars"]
   node_bundler = "esbuild"
 [[redirects]]
   force = true
-  from = "/*"
+  from = "/api/*"
   status = 200
   to = "/.netlify/functions/api/:splat"
 
