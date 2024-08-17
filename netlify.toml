@@ -1,5 +1,6 @@
 [functions]
   external_node_modules = ["express"]
+  include_files = ["views/*.handlebars", "views/layouts/*.handlebars"]
   node_bundler = "esbuild"
 [[redirects]]
   force = true
