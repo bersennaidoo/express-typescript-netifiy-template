@@ -5,7 +5,6 @@ app.engine("handlebars", engine({
   defaultLayout: "main"
 }));
 app.set("view engine", "handlebars");
-app.set("views", "./views");
 const port = process.env.PORT || 3e3;
 app.get("/", (req, res) => {
   res.render("home");

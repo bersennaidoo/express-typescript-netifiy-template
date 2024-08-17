@@ -9,7 +9,6 @@ app.engine("handlebars", engine({
 }))
 
 app.set("view engine", "handlebars")
-app.set("views", "./views")
 
 app.get("/", (req: Request, res: Response): void => {
     res.render("home")
