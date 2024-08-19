@@ -1,6 +1,5 @@
 [functions]
   external_node_modules = ["express"]
-  directory = "cmd/netlify/functions"
   node_bundler = "esbuild"
 [[redirects]]
   force = true
