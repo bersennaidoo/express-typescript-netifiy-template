@@ -5,7 +5,7 @@ import compress from "compression";
 import cors from "cors"
 import helmet from "helmet";
 import serverless from "serverless-http";
-import { UserHandler } from "../../../api/handlers/user_handler";
+import { UserHandler } from "../../api/handlers/user_handler";
 
 const app = express();
 
